@@ -1,0 +1,215 @@
+/* CSS Reset */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo Styles */
+.logo-img {
+    margin-left: 150px;
+    height: 46px;
+    width: 70px; /* Điều chỉnh kích thước ảnh */
+    border-radius: 50px; /* Bo tròn góc */
+}
+
+/* Header Styles */
+.main .menu {
+    height: 30px;
+    background-color: #f50b0b;
+    color: #fff;
+    padding: 15px; /* Tăng khoảng cách giữa các phần tử */
+    display: flex; /* Hiển thị các phần tử trên cùng một hàng */
+    align-items: center; /* Căn các phần tử theo chiều dọc */
+}
+
+.main .menu .content {
+    font-weight: bold; /* làm đậm chữ */
+    font-style: italic; /* làm nghiêng chữ */
+    margin-left: -20px;
+    font-size: 20px; /* Thu nhỏ kích thước chữ "ĐPT SHOP" */
+}
+
+.menu_search-input {
+    width: 400px;
+    margin-left: -20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+.menu .cart-cart,
+.menu .button-history,
+.menu .login-register-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.menu .cart-cart,
+.menu .button-history {
+    margin-left: 0px;
+    color: #ffffff;
+    font-size: 19px;
+    margin-left: -15px;
+}
+
+.menu .cart-number {
+    background-color: red;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.login-button,
+.register-button {
+    width: auto; /* Đặt chiều rộng tự động */
+    padding: 10px 20px; /* Đặt lề bên trong */
+    padding: 8px 16px;
+    border: 1px solid #f11919;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+span.cart-cart:active,
+span.button-history:active {
+    transform: translateY(2px); /* Di chuyển phần tử xuống dưới */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng */
+    background-color: rgb(255, 253, 253); /* Đặt màu nền */
+    color: #000; /* Đặt màu chữ */
+}
+
+span.login-button:active,
+span.register-button:active {
+    transform: translateY(2px); /* Di chuyển phần tử xuống dưới */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng */
+    background-color: rgb(255, 255, 255); /* Đặt màu nền */
+    color: #000; /* Đặt màu chữ */
+}
+
+.menu { 
+    display: flex;
+    justify-content: space-between; /* Chia đều không gian giữa các phần tử con */
+    align-items: center;
+    padding: 15px;
+    background-color: #f50b0b;
+    color: #fff;
+}
+
+.login-register-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar {
+    background-color: rgb(4, 5, 5); /* Đặt màu nền */
+    height: 55px; /* Đặt chiều cao */
+    margin-bottom: 20px; /* Đặt khoảng cách phía dưới */
+}
+
+.menu-bar ul {
+    display: flex; /* Hiển thị phần tử dưới dạng flexbox */
+    justify-content: space-around; /* Căn các phần tử theo khoảng cách đều nhau */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.menu-bar-conten ul {
+    display: flex; /* Hiển thị phần tử dưới dạng flexbox */
+    justify-content: center; /* Căn các phần tử từ trung tâm */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100%; /* Đặt chiều cao */
+}
+
+.menu-bar-conten ul li {
+    margin: 0 5px; /* Đặt khoảng cách giữa các phần tử */
+}
+
+span.button-mobile:active,
+span.button-charger:active,
+span.button-watch:active,
+span.button-earphone:active,
+span.button-laptop:active,
+span.button-tablet:active {
+    transform: translateY(2px); /* Di chuyển phần tử xuống dưới */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng */
+    background-color: rgb(200, 200, 200); /* Đặt màu nền */
+    color: #000; /* Đặt màu chữ */
+}
+
+/* Active Effect */
+span.button-history:active,
+span.cart-cart:active,
+span:active,
+span.login-button:active,
+span.register-button:active,
+span.button-mobile:active,
+span.button-charger:active,
+span.button-watch:active,
+span.button-earphone:active,
+span.button-laptop:active,
+span.button-tablet:active {
+    transform: translateY(2px); /* Di chuyển phần tử xuống dưới */
+    box-shadow: 0 2px 4px rgba(28, 150, 62, 0.1); /* Thêm đổ bóng */
+    background-color: rgb(255, 255, 255); /* Đặt màu nền */
+    color: #000; /* Đặt màu chữ */
+}
+   
+   
+span {
+   
+    
+    
+    border-radius: 10px; /* Đặt độ cong viền */
+    font-size: 20px; /* Đặt kích thước phông chữ */
+    
+    display: inline-block; /* Hiển thị dưới dạng block nhưng không chiếm toàn bộ chiều rộng */
+    vertical-align: middle; /* Căn giữa theo chiều dọc */
+    color: #fff; /* Đặt màu chữ */
+}
+/* CSS for Navigation Menu */
+.menu-bar {
+    background-color: #333; /* Đặt màu nền */
+    height: 50px; /* Đặt chiều cao */
+    margin-bottom: 20px; /* Khoảng cách dưới cùng */
+}
+
+.menu-bar .container {
+    max-width: 1200px; /* Đặt chiều rộng tối đa */
+    margin: 0 auto; /* Canh giữa */
+}
+
+.menu-bar ul {
+    display: flex; /* Hiển thị phần tử dưới dạng flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100%; /* Đặt chiều cao */
+}
+
+.menu-bar ul li {
+    margin: 0 10px; /* Khoảng cách giữa các danh mục */
+}
+
+.menu-bar ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: #fff; /* Màu chữ */
+    padding: 10px 15px; /* Kích thước và padding */
+    border-radius: 5px; /* Bo tròn góc */
+}
+
+.menu-bar ul li a:hover {
+    background-color: #ffffff; /* Màu nền khi hover */
+    color: #000;
+}
+.menu-bar {
+    background-color: #333; /* Đặt màu nền */
+    height: 50px; /* Đặt chiều cao */
+    margin-bottom: 20px; /* Khoảng cách dưới cùng */
+    display: flex; /* Hiển thị phần tử dưới dạng flexbox */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="/fontend/acset/css/cssreset.css">
+    <link rel="stylesheet" href="/fontend/acset/css/style.css">
+    <link rel="stylesheet" href="/fontend/acset/css/chitietsp.css">
+    <link rel="stylesheet" href="/fontend/acset/js/index.js">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    
+</head>
+<body>
+    <header class="main">
+        <div class="menu">
+            <div class="logo">
+                <img class="logo-img" src="/img/logo.jpg" alt="" width="100">
+            </div>
+            <p class="content">ĐPT SHOP</p>
+            <div class="menu-search">
+                <input type="text" placeholder="Nhập tên điện thoại, phụ kiện, máy tính... cần tìm" class="menu_search-input">
+            </div>
+            <ul>
+                <li> 
+                 <a href="#"><span class="cart-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                   <span class="cart-number">0</span> Giỏ hàng</span>
+                </a>
+                
+                </li>
+            </ul>
+            <ul>
+                <li> 
+                    <a href="#"> 
+                        <span class="button-history"> 
+                            <i class="fa-solid fa-clock-rotate-left"></i> Lịch sử mua hàng 
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                  
+                    <div class="login-register-buttons">
+                      <span class="login-button">Đăng nhập/Đăng kí</span>
+                      
+                  </div>
+                  
+                    
+                </li>
+            </ul>
+        </div>
+      </header>
+      
+    
+      <main class="main">
+        <div class="menu-bar">
+            <div class="container">
+                <div class="menu-bar-conten">
+                    <ul>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-mobile"> Điện thoại </span>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="#"> 
+                                <span class="button-laptop"> Laptop </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-tablet"> Tablet </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-watch"> Đồng hồ </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-earphone"> Tai nghe </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-charger"> Cáp sạc </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-powerbank"> Sạc dự phòng </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-case"> Ốp lưng </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"> 
+                                <span class="button-other-accessories"> Phụ kiện khác... </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </main>
+      <section class="product-detail">
+        <div class="container">
+            <div class="row-left-row-flex-product-detail">
+                <p> Điện thoại </p> 
+                <i class="fas fa-angle-right"></i>
+                <p> iPhone</p>
+                
+                <li>Điện thoại iPhone 15 Pro Max 512GB  
+                  
+                  <ul>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </ul>
+                </li>
+                <hr class="divider">
+                
+            </div>
+            <div class="row-grid">  
+                <div class="product-detail-left">
+                    <img class="main-images" src="/ip/ip15prmtitanxanh.jpg" alt="">
+                    <div class="product-images-items">
+                        <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                        <img src="/ip/icon ip/iphone-15-pro-max-blue-2-1.jpg" alt="">
+                        <img src="/ip/icon ip/iphone-15-pro-max-blue-3-1.jpg" alt="">
+                        <img src="/ip/icon ip/iphone-15-pro-max-blue-4-1.jpg" alt="">
+                    </div>
+                </div>
+                
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                        // Lấy tất cả các ảnh trong phần tử có class là 'product-images-items'
+                        var imageItems = document.querySelectorAll('.product-images-items img');
+                
+                        // Lặp qua từng ảnh để thêm sự kiện click
+                        imageItems.forEach(function(item) {
+                            item.addEventListener('click', function() {
+                                // Lấy đường dẫn của ảnh được click
+                                var newSrc = this.src;
+                                
+                                // Thay đổi đường dẫn của ảnh trong phần tử main-images
+                                document.querySelector('.main-images').src = newSrc;
+                            });
+                        });
+                    });
+                </script>
+
+                
+                 <div class="product-detail-right">
+                  
+                    <div class="product-detail-right-infor">
+                        <li> Online giá rẻ </li>
+                        <li><a>37.990.000<sup>đ</sup> <span>-7%</span></a></li>
+                        <li> 40.990.000<sup>đ</sup></li>
+                        <li> Quà 1.000.000 <sup>đ</sup></li>
+                        
+                    </div>
+                    <div class="product-detail-right-top">
+                      <a href="#" class="256GB">
+                        <button class="button1">256GB</button>
+                        </a>
+                      <a href="#" class="512GB">
+                        <button class="button2">512GB</button>
+                        </a>
+                      <a href="#" class="1TB">
+                      <button class="button3">1TB</button>
+                      </a>
+                    </div>
+                    <div class="product-detail-right-des">
+                        <h2>Nhận ngay các khuyến mãi đặc biệt</h2>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i>Giao hàng tận nơi nhanh chóng</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Trả Góp 0%</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Giảm ngay 200.000đ khi thanh toán Online</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Bảo hành 1 đổi 1 trong 12 tháng</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Tặng ngay bộ quà tặng trí giá 1.000.000đ</li>
+
+                           
+                            
+                        </ul>
+                    </div>
+                    <div class="product-detail-right-quantity">
+                        <h2>CÒN HÀNG</h2>
+                    </div>
+                    <div class="product-detail-right-product-detail">
+                      <button>Xem chi tiết sản phẩm</button>
+
+                    </div>
+                    
+                   
+                    <div class="product-detail-right-addcart">
+                        <button > <i class="fa-solid fa-cart-plus"></i>Thêm vào giỏ hàng</button>
+
+                    </div>
+                    <div class="product-detail-right-buynow">
+                      <button> Mua ngay</button>
+
+                  </div>
+                   
+                    
+                    
+
+
+                </div> 
+
+
+            </div>
+            
+        </div>
+      </section>
+    
+      <section class="product-gallery-one">
+        <div class="container">
+            <div class="product-gallery-one-content">
+                <div class="product-gallery-one-content-title">
+                  <h2>Sản Phẩm khác</h2>
+                </div>
+                <ul class="product-list">
+                  <li><a href="">iPhone 12 Pro Max 512GB</a></li>
+                  <li><a href="">iPhone 14 Pro 256GB</a></li>
+                  <li><a href="">iPhone 11 256GB</a></li>
+                  <li><a href="">Xem tất cả</a></li>
+              </ul>
+                <div class="product-gallery-one-content-product">
+                  
+                  
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+    
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                  <div class="product-gallery-one-content-product-item">
+                    <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                      <div class="product-gallery-one-content-product-item-text">
+                          <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                        <li>iphone 15 Pro 512GB </li>
+                        <li> Online giá rẻ </li>
+                        <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                        <li> 26.990.000<sup>đ</sup></li>
+                        <li> Quà 500.000 <sup>đ</sup></li>
+                        <li>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </li>
+          
+                      </div>
+                    
+                </div>
+                    <div class="product-gallery-one-content-product-item">
+                        <img src="/ip/ip15prmtitanxanh.jpg" alt="">
+                          <div class="product-gallery-one-content-product-item-text">
+                              <li> <img src="/ip/ICON.jpg" alt=""> <p> Giảm giá cực sốc</p></li>
+                            <li>iphone 15 Pro 512GB </li>
+                            <li> Online giá rẻ </li>
+                            <li><a>28.990.000<sup>đ</sup> <span>-6%</span></a></li>
+                            <li> 26.990.000<sup>đ</sup></li>
+                            <li> Quà 500.000 <sup>đ</sup></li>
+                            <li>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </li>
+              
+                          </div>
+                        
+                    </div>
+    
+                </div>
+                
+    
+            </div>
+    
+    
+        </div>
+    
+    
+      </section>
+      <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>Công ty</h4>
+             <ul>
+               <li><a href="#">Thông tin về chúng tôi</a></li>
+               <li><a href="#">Dịch vụ</a></li>
+               <li><a href="#">Chính sách bảo hành</a></li>
+               <li><a href="#">Chương trình tiếp thị liên kết</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Trợ giúp</h4>
+             <ul>
+               <li><a href="#">Câu hỏi thường gặp</a></li>
+               <li><a href="#">Shipping</a></li>
+               <li><a href="#">Đổi trả</a></li>
+               <li><a href="#">Thông tin đặt hàng</a></li>
+               <li><a href="#">Phương thức thanh toán</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Cửa hàng trực tuyến</h4>
+             <ul>
+               <li><a href="#">Điện thoại </a></li>
+               <li><a href="#">Laptop</a></li>
+               <li><a href="#">Taplet</a></li>
+               <li><a href="#">Khác...</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Theo dõi chúng tôi tại</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+     <script src="index.js"></script>
+</body>
+</html>
